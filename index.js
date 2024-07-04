@@ -880,12 +880,18 @@ twitCreateScreenTopCloseBtn.addEventListener(("click") , (event) =>{
 
 
 document.addEventListener(("click") , (event) => {
-  if(event.target === featerTwitCreate || twitCreateScreen.contains(event.target) || twitCreateScreenOptionsArea.contains(event.target) ) {
+  if(event.target === featerTwitCreate || twitCreateScreen.contains(event.target) || twitCreateScreenOptionsArea.contains(event.target) || event.target === feathericon ) {
     return ;
   }
 
   twitCreateScreen.style.display = "none"
 
+})
+
+const feathericon = document.getElementById("feather-icon")
+
+feathericon.addEventListener("click" , (event) => {
+  twitCreateScreen.style.display = "flex"
 })
 
 
