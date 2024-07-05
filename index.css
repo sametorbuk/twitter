@@ -586,6 +586,14 @@ header {
   cursor: pointer;
 }
 
+.more-info-premium-btn:hover {
+  text-decoration: underline;
+}
+
+.more-info-premium-btn2:hover {
+  text-decoration: underline;
+}
+
 
 .more-info-premium-btn2 {
   margin: 0;
@@ -1160,7 +1168,7 @@ color: white
 }
 
 .footer button:hover {
- text-decoration: dashed;
+ text-decoration: underline
 }
 
 .footer {
