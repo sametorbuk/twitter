@@ -4,16 +4,14 @@ import './App.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas, far, fab } from '@fortawesome/free-solid-svg-icons'
 library.add(fas, far, fab);
-import PleasedOrNotButton from './components/unpleased-button'
+import UnpleasedButton from './components/unpleased-button'
 
 
 
 function App() {
- 
-
-  return (
+   return (
     <>
-      <PleasedOrNotButton></PleasedOrNotButton>
+    <UnpleasedButton/>
     </>
   )
 }

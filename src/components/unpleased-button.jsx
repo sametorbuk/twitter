@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./unpleased-button.css"
 
 
-export default function PleasedOrNotButton() {
+export default function UnpleasedButton() {
 
 return (
    <>
