@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
 
 .App {
@@ -10,13 +11,3 @@
   text-align: center;
 
 }
-
-.unpleased-button {
-  position: fixed;
-  z-index: 130000;
-  background: white;
-  width: 20rem;
-  height: 100rem;
-  color: white
-  
-  }
