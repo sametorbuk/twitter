@@ -6,9 +6,9 @@ function UnpleasedButton() {
 
 return (
    <>
-   <Button className="unpleased-button"><FontAwesomeIcon icon={faFaceFrown}/>İlgimi çekmiyor</Button>
+   <Button className="unpleased-button">İlgimi çekmiyor</Button>
    
-   <Button className="unpleased-button"><FontAwesomeIcon icon={faFaceFrown}/>Bu gündem başlığı zararlı veya spam içeriyor</Button>
+   <Button className="unpleased-button">Bu gündem başlığı zararlı veya spam içeriyor</Button>
    
    </>
 
